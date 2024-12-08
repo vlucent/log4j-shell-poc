@@ -1,4 +1,7 @@
-# log4j-shell-poc
+# log4j-shell-poc patched for non-docker (original repo: [@kozmer](https://github.com/kozmer/log4j-shell-poc))
+demo wasn't quite working for me, had to make some changes to get it working again.
+
+
 A Proof-Of-Concept for the recently found CVE-2021-44228 vulnerability. <br><br>
 Recently there was a new vulnerability in log4j, a java logging library that is very widely used in the likes of elasticsearch, minecraft and numerous others.
 
